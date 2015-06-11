@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/teamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ImgButton1"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:contentDescription="Batting"
+            android:src="@drawable/batt" 
+            android:background="@drawable/circular_button"
+            android:onClick="btnBatting"/>
+
+        <ImageButton
+            android:id="@+id/ImgButton2"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:scaleType="fitXY"
+            android:contentDescription="Bowling"
+            android:src="@drawable/balll" 
+            android:background="@drawable/circular_button"
+            android:onClick="btnBowling"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Batting" />
+
+        <TextView
+            android:id="@+id/txtView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="Bowling" />
+    </LinearLayout>
+
+</LinearLayout>

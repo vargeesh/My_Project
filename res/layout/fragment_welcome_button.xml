@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+        <TextView
+            android:id="@+id/txtLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:autoLink="web"
+            android:background="@drawable/hyperlink"
+            android:linksClickable="true"
+            android:onClick="btnHlink"
+            android:text="Let&apos;s Start"
+            android:textColor="#0000ff"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnHlink1"
+            android:text="Facebook share" />
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btnMenu"
+            android:onClick="btnListView"
+            android:text="Custom Listview" />
+
+        <Button
+            android:id="@+id/btnList1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btnText"
+            android:layout_marginTop="31dp"
+            android:onClick="btnListView1"
+            android:text="Custom Listview1" />
+
+        <Button
+            android:id="@+id/btnviewPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnList1"
+            android:layout_alignBottom="@+id/btnList1"
+            android:layout_alignRight="@+id/btnList"
+            android:layout_marginRight="15dp"
+            android:onClick="btnViewPager"
+            android:text="View Pager" />
+
+        <Button
+            android:id="@+id/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtLink"
+            android:layout_centerHorizontal="true"
+            android:onClick="btnMenu"
+            android:text="Menu" />
+
+</RelativeLayout>

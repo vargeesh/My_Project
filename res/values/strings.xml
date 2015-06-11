@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CKTScore</string>
+    <string name="app_id">719687218145953</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="item_array">
+        <item>Choose anyone</item>
+        <item>Dot Ball</item>
+        <item>Single</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Six</item>
+        <item>Wide</item>
+        <item>No Ball</item>
+        <item>Wicket</item>
+        <item>RunOut</item>
+    </string-array>
+    
+    <string-array name="item_array1">
+        <item>Choose anyone</item>
+        <item>Dot Ball</item>
+        <item>Single</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Six</item>
+        <item>Wicket</item>
+        <item>RunOut</item>
+    </string-array>
+    
+     <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+     
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Find People</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+     
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/images1</item>
+        <item>@drawable/image2</item>
+        <item>@drawable/image3</item>
+        <item>@drawable/image4</item>
+        <item>@drawable/image5</item>
+        <item>@drawable/image6</item>
+    </array>
+     
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+</resources>

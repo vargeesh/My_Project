@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapp.cktscore"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="20" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/images1"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Fragment_menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity android:name="com.myapp.cktscore.Fragment_menu"></activity> -->
+        <activity android:name="teamname" >
+        </activity>
+        <activity android:name="ScoreDetails" >
+        </activity>
+        <activity android:name="Toss" >
+        </activity>
+        <activity android:name="ChasingDetails" >
+        </activity>
+        <activity android:name="MatchSummary" >
+        </activity>
+        <activity android:name="DisplayAllDatas" >
+        </activity>
+        <activity android:name="FaceBook_Page" >
+        </activity>
+        <activity android:name="com.myapp.cktscore.view.GridView" >
+        </activity>
+        <activity android:name="com.myapp.cktscore.view.ListviewAndroid" >
+        </activity>
+        <activity android:name="com.myapp.cktscore.view.FullImageView" >
+        </activity>
+        <activity android:name="com.myapp.cktscore.view.Expandable_List" >
+        </activity>
+        <activity android:name="com.myapp.cktscore.view.ViewPagerr" >
+        </activity>
+        <activity android:name="com.myapp.cktscore.view.Menu_DrawerActivity" >
+        </activity>
+        <!--
+        <activity android:name="com.facebook.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="719687218145953" />
+        -->
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity android:name="My_ListView" >
+        </activity>
+    </application>
+
+</manifest>
